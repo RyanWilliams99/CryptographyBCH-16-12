@@ -126,7 +126,7 @@ int ConvertToInt(int i)
 	return i;
 }
 
-void PrintInput(vector<char> c)
+void PrintInput(vector<int> c)
 {
 	cout << "Input  (";
 
@@ -227,7 +227,7 @@ int BCHDecode(string s)
 	r = ModularArithmatic::mod(r, 17);
 
 
-	//PrintInput(input);
+	PrintInput(input);
 
 	if (s1 == 0 && s2 == 0 && s3 == 0 && s4 == 0) //No Error
 	{
